@@ -19,6 +19,6 @@ function resizeFrame(obj) {
 }
 
 if (mainIframe) {
-//  mainIframe.setAttribute('scrolling', 'yes');
+  mainIframe.setAttribute('scrolling', 'auto');
   resizeFrame(mainIframe);
 }
